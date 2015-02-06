@@ -56,25 +56,6 @@ var Node = function(value){
   return node;
 };
 
-//
-
 /*
  * Complexity: What is the time complexity of the above functions?
  */
-
-//{head:"a", a:"b","b"}
-
-// {"a":"b", "b":"c", "c":"d", "d":"g", "g":"a"}
-// {0:"a", 1:"b", 2:"c", 3:"d"}
-
-
-// {0:"a"} // key: 0 value = "a"
-// {1:"b"} // key 1 value = "b"
-
-// list[0][value]
-// list[0][next] = list[1]
-
-// node.value
-// node.next
-
-// node.next = node.value
