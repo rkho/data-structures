@@ -60,9 +60,7 @@ Graph.prototype.forEachNode = function(cb){
   var currentGraph = this;
   _.each(currentGraph.storage, function(elem){
     cb(elem);
-    console.log(currentGraph.edges);
   })
-  debugger;
 };
 
 /*
